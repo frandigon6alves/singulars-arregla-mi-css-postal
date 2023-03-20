@@ -1,15 +1,13 @@
-
-body{
-    background-color:white;
-    font-family: 'Handlee', cursive; 
-    /* para encontrar la fuente tuve que ir al video */
-}
+body {
+    background-color: black;
+    font-family: 'Handlee', cursive;
+  }
 
 .titulo img{
     float: right;
     width: 60px;
     position: relative;
-    top: -115px;
+
 }
 
 .post{
@@ -27,6 +25,7 @@ body{
 }
 
 .formulario{
+    margin-top:5%;
     float: right;
     width: 50%;
 }
@@ -42,14 +41,17 @@ input {
     font-size: 20px;
 }
 footer{
+    display: flex;
+    justify-content: center;
     clear:both;
+    
 }
 
 footer input[type=submit]{
     border: none;
     border-bottom: 1px solid gray;
     background-color:darkgray;
-    font-family: 'Handlee', cursive; 
+    font-family: 'Handlee', cursive;
 }
 
 /* no se me ocurrio donde usar la propiedad de overflow */
